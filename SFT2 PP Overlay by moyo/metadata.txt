@@ -1,0 +1,7 @@
+Usecase: ingame, obs-overlay
+Name: SFT2 PP Overlay 
+Version: 1
+Author: Dartandr
+CompatibleWith: gosu, tosu
+Resolution: 400x180
+authorLinks: https://github.com/Dartandr - modded by moyo

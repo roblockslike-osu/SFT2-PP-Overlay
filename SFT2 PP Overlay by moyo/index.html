@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=400, height=180">
+    <title>Tourney PP Overlay</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <script src="deps/reconnecting-websocket.min.js"></script>
+    <script src="deps/countUp.js"></script>
+</head>
+
+<body>
+
+    <div class="pp-container">
+
+        <div class="pp-box left">
+            <div class="pp-content">
+                <div class="label" id="leftName">LEFT</div>
+
+                <div class="pp">
+                    <span id="ppLeft">0</span>pp
+                </div>
+            </div>
+        </div>
+
+
+        <div class="pp-box right">
+            <div class="pp-content">
+                <div class="label" id="rightName">RIGHT</div>
+
+                <div class="pp">
+                    <span id="ppRight">0</span>pp
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
